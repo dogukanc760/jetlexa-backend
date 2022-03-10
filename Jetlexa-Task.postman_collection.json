@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "ce024675-e9b2-4a96-b0bb-566ed30942ee",
+		"name": "Jetlexa-Task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://jetlexa-api.herokuapp.com/api/user/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"email\": \"somebodylikesyou\",\r\n    \"password\": \"12345\"\r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://jetlexa-api.herokuapp.com/api/user/login",
+					"protocol": "https",
+					"host": [
+						"jetlexa-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"user",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://jetlexa-api.herokuapp.com/api/user/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"email\": \"doguffkanc760@hotmail.com\",\r\n    \"password\": \"12345\",\r\n    \"age\": 120,\r\n    \"bornAt\": \"05.04.2000\",\r\n    \"location\": [\r\n        \"Izmir\",\r\n        \"Turkiye\"\r\n    ],\r\n    \"image\": \"imageurl\",\r\n    \"balance\": 123123,\r\n    \"about\": \"Some about\",\r\n    \"userName\": \"somebodylikesyou\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://jetlexa-api.herokuapp.com/api/user/login",
+					"protocol": "https",
+					"host": [
+						"jetlexa-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"user",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://jetlexa-api.herokuapp.com/api/user/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://jetlexa-api.herokuapp.com/api/user/",
+					"protocol": "https",
+					"host": [
+						"jetlexa-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"user",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
