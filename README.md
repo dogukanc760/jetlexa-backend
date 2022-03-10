@@ -12,7 +12,7 @@ npm start
 after saying the project will run
 
 ## Project Endpoints 
-# Örnek endpointleri proje ekinde ki json dosyasında bulabilirsiniz. Bazı örnek proje endpoint urlleri:
+# You can find the sample endpoints in the json file in the project attachment. Some sample project endpoint urls:
 
 https://jetlexa-api.herokuapp.com/   is main API url
 https://jetlexa-api.herokuapp.com/api/user Http Get for get users 
